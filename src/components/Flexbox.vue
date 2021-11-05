@@ -1,123 +1,123 @@
 <template>
   <!-- Row 1: One box per column -->
   <div>
-  <div class="row reverse">
-    <figure>
-      <div class="one"></div>
-      <figcaption>
-        <h2>Abstract 1</h2>
-        <p>Lorem ipsum dolor sit amet.</p>
-      </figcaption>
-    </figure>
-    <figure>
-      <div class="two"></div>
+    <div class="row reverse">
+      <figure>
+        <div class="one"></div>
+        <figcaption>
+          <h2>Abstract 1</h2>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </figcaption>
+      </figure>
+      <figure>
+        <div class="two"></div>
 
-      <figcaption>
-        <h2>Abstract 2</h2>
-        <p>Lorem ipsum dolor sit amet.</p>
-      </figcaption>
-    </figure>
-    <figure>
-      <div class="three"></div>
+        <figcaption>
+          <h2>Abstract 2</h2>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </figcaption>
+      </figure>
+      <figure>
+        <div class="three"></div>
 
-      <figcaption>
-        <h2>Abstract 3</h2>
-        <p>Lorem ipsum dolor sit amet.</p>
-      </figcaption>
-    </figure>
-    <figure>
-      <div class="four"></div>
+        <figcaption>
+          <h2>Abstract 3</h2>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </figcaption>
+      </figure>
+      <figure>
+        <div class="four"></div>
 
-      <figcaption>
-        <h2>Abstract 4</h2>
-        <p>Lorem ipsum dolor sit amet.</p>
-      </figcaption>
-    </figure>
+        <figcaption>
+          <h2>Abstract 4</h2>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </figcaption>
+      </figure>
+    </div>
+
+    <!-- Row 2: 2 boxes, each spanning 2 columns -->
+    <div class="row">
+      <figure class="span2">
+        <div class="three"></div>
+
+        <figcaption>
+          <h2>Abstract 3</h2>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </figcaption>
+      </figure>
+      <figure class="span2">
+        <div class="one"></div>
+
+        <figcaption>
+          <h2>Abstract 1</h2>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </figcaption>
+      </figure>
+    </div>
+
+    <!-- Row 3: One box spans 3 columns, one box spans 1 column -->
+    <div class="row">
+      <figure class="span3">
+        <div class="four"></div>
+
+        <figcaption>
+          <h2>Abstract 4</h2>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </figcaption>
+      </figure>
+      <figure class="span3-1">
+        <div class="two"></div>
+
+        <figcaption>
+          <h2>Abstract 2</h2>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </figcaption>
+      </figure>
+    </div>
+
+    <!-- Row 4: One box spans 4 columns -->
+    <div class="row">
+      <figure class="span4">
+        <div class="three"></div>
+        <figcaption>
+          <h2>Abstract 3</h2>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </figcaption>
+      </figure>
+    </div>
+
+    <!-- Row 5: 3 boxes, 1-2-1 distribution -->
+    <div class="row">
+      <figure class="order-3">
+        <div class="four"></div>
+        <figcaption>
+          <h2>Abstract 4</h2>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </figcaption>
+      </figure>
+      <figure class="span2 order-1">
+        <div class="two"></div>
+
+        <figcaption>
+          <h2>Abstract 2</h2>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </figcaption>
+      </figure>
+      <figure class="order-2">
+        <div class="one"></div>
+
+        <figcaption>
+          <h2>Abstract 1</h2>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </figcaption>
+      </figure>
+    </div>
   </div>
-
-  <!-- Row 2: 2 boxes, each spanning 2 columns -->
-  <div class="row">
-    <figure class="span2">
-      <div class="three"></div>
-
-      <figcaption>
-        <h2>Abstract 3</h2>
-        <p>Lorem ipsum dolor sit amet.</p>
-      </figcaption>
-    </figure>
-    <figure class="span2">
-      <div class="one"></div>
-
-      <figcaption>
-        <h2>Abstract 1</h2>
-        <p>Lorem ipsum dolor sit amet.</p>
-      </figcaption>
-    </figure>
-  </div>
-
-  <!-- Row 3: One box spans 3 columns, one box spans 1 column -->
-  <div class="row">
-    <figure class="span3">
-      <div class="four"></div>
-
-      <figcaption>
-        <h2>Abstract 4</h2>
-        <p>Lorem ipsum dolor sit amet.</p>
-      </figcaption>
-    </figure>
-    <figure>
-      <div class="two"></div>
-
-      <figcaption>
-        <h2>Abstract 2</h2>
-        <p>Lorem ipsum dolor sit amet.</p>
-      </figcaption>
-    </figure>
-  </div>
-
-  <!-- Row 4: One box spans 4 columns -->
-  <div class="row">
-    <figure class="span4">
-      <div class="three"></div>
-      <figcaption>
-        <h2>Abstract 3</h2>
-        <p>Lorem ipsum dolor sit amet.</p>
-      </figcaption>
-    </figure>
-  </div>
-
-  <!-- Row 5: 3 boxes, 1-2-1 distribution -->
-  <div class="row">
-    <figure class="order-3">
-      <div class="four"></div>
-      <figcaption>
-        <h2>Abstract 4</h2>
-        <p>Lorem ipsum dolor sit amet.</p>
-      </figcaption>
-    </figure>
-    <figure class="span2 order-1">
-      <div class="two"></div>
-
-      <figcaption>
-        <h2>Abstract 2</h2>
-        <p>Lorem ipsum dolor sit amet.</p>
-      </figcaption>
-    </figure>
-    <figure class="order-2">
-      <div class="one"></div>
-
-      <figcaption>
-        <h2>Abstract 1</h2>
-        <p>Lorem ipsum dolor sit amet.</p>
-      </figcaption>
-    </figure>
-  </div>
-</div>
 </template>
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "Flexbox",
   props: {
     msg: String,
   },
@@ -126,36 +126,50 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.row {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  /* enforces a gap between boxes. You still have to do the math. See https://css-tricks.com/gaps-gasp/
-  gap: 4%; */
+
+@media (min-width: 550px) {
+  .row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 4%;
+  }
+  figure, .span2 {
+    flex-basis: 48%;
+  }
+  .span3 {
+    flex-basis: 100%;
+  }
+  .span3-1 {
+    flex-basis: 100%;
+  }
 }
-figure {
-  flex-basis: 22%;
-}
-.span2 {
-  flex-basis: 48%;
-}
-.span3 {
-  flex-basis: 74%;
-}
-.span4 {
-  flex-basis: 100%;
-}
-.reverse {
-  flex-flow: row-reverse wrap;
-}
-.order-1 {
-  order: 1;
-}
-.order-2 {
-  order: 2;
-}
-.order-3 {
-  order: 3;
+@media (min-width: 800px) {
+  figure,
+  .span3-1 {
+    flex-basis: 22%;
+  }
+  .span2 {
+    flex-basis: 48%;
+  }
+  .span3 {
+    flex-basis: 74%;
+  }
+  .span4 {
+    flex-basis: 100%;
+  }
+  .reverse {
+    flex-flow: row-reverse wrap;
+  }
+  .order-1 {
+    order: 1;
+  }
+  .order-2 {
+    order: 2;
+  }
+  .order-3 {
+    order: 3;
+  }
 }
 
 /* default styling, no changes needed here */
